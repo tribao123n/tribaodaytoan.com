@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing:border-box;
+    font: 17px 'Alanta', sans-serif;
+    background: #f5f5f5;
+    color:#555;
+}
+ul {
+    list-style:none;
+}
+a{ 
+text-decoration:none;
+}
+h1, h2, h3 {
+    font: 35px 'Ibrra Real Nova', serif;
+}
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding:0 15px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    padding: 0 15px;
+    border-right: 1px solid #c0c4c1;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+nav ul li a, nav .logo-holder a {
+    color: #34495e;
+    text-align: center;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #1abc9c;
+}
